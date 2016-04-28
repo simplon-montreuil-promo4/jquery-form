@@ -1,4 +1,4 @@
-# Interactive formulaire
+# Interactive form
 
 The objective is to achieve an interactive form that can animate with jQuery. It will be a form is very basic, with a few fields that will see their CSS style change as a user action. The aim is to verify the entered information: number of characters, ensure that the confirmation of the password is the same one, verify that all fields are filled, etc..
 
