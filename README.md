@@ -1,6 +1,6 @@
 # Interactive formulaire
 
-The objective is to achieve an interactive form that can animate with jQuery. It will be a form is very basic, with a few fields that will see their CSS style change as a user action. The aim is to verify the entered information: number of characters, ensure that the confirmation of the password is the same one, verify that all fields are filled, etc.
+The objective is to achieve an interactive form that can animate with jQuery. It will be a form is very basic, with a few fields that will see their CSS style change as a user action. The aim is to verify the entered information: number of characters, ensure that the confirmation of the password is the same one, verify that all fields are filled, etc..
 
 ## Goals
 
@@ -31,4 +31,3 @@ Some improvements to the security level could be made:
 - You could check the format of the e-mail address with a regular expression, made with Regex object of JavaScript;
 - You could also check that the password was sure, making such a security mini-indicator that would be based on the number of characters, diversity, ...
 - It is possible to display a help message for each field, when the user types text into them;
-- ...
