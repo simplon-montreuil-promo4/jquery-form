@@ -17,7 +17,7 @@ You must ensure that the user enters the right information, in the right way:
 - The password and confirmation must be identical;
 - If the fields are empty when sending it displays an error message.
 
-To indicate the error to the visitor, simply use CSS: a red border would can be use for example. Similarly, if the field is good, you could change the color of the appropriate field in green.
+To indicate the error to the visitor, simply use **CSS**: a red border would can be use for example. Similarly, if the field is good, you could change the color of the appropriate field in green.
 
 Remember that you must do all cases, because it should never trust the user.
 
