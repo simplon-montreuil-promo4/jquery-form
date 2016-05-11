@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $('#registration-form').validate({
+    var validator = $('#registration-form').validate({
         rules: {
 
             username: {
@@ -27,7 +27,7 @@ $(document).ready(function() {
 
         },
         highlight: function(element) {
-				$(element).closest('.control-group').removeClass('success').addClass('error');
+				$(element).closest('.control-group').removeClass('error').addClass('success');
 			},
 			success: function(element) {
 				element
@@ -35,5 +35,6 @@ $(document).ready(function() {
 				.closest('.control-group').removeClass('error').addClass('success');
 			}
     });
+
 
 }); // end document.ready
