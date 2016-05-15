@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire interactif</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+        <form id="registration-form" class="form-horizontal">
+
+            <h1>Formulaire interactif- Adam </h1>
+            <br/>
+            <div class="form-control-group">
+              <label class="control-label" for="name">Pseudo</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge" name="username" id="username">
+              </div>
+            </div>
+
+            <div class="form-control-group">
+              <label class="control-label" for="name">Mot de passe</label>
+              <div class="controls">
+                <input type="password" class="input-xlarge" name="password" id="password">
+              </div>
+            </div>
+
+            <div class="form-control-group">
+              <label class="control-label" for="name"> Confirmation</label>
+              <div class="controls">
+                <input type="password" class="input-xlarge" name="confirm_password" id="confirm_password">
+              </div>
+            </div>
+
+            <div class="form-control-group">
+              <label class="control-label" for="email">Email Address</label>
+              <div class="controls">
+                <input type="text" class="input-xlarge" name="email" id="email">
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-success btn-large">Envoyer</button>
+              <button type="reset" class="btn">Rafraîchir</button>
+            </div>
+
+        </form>
+      </div>
+      <!-- .span -->
+    </div>
+    <!-- .row -->
+
+  </div>
+
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script>
+		addEventListener('load', prettyPrint, false);
+		$(document).ready(function(){
+		$('pre').addClass('prettyprint linenums');
+			});
+		</script>
+</body>
+
+</html>
