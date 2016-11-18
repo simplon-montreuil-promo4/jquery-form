@@ -1,0 +1,25 @@
+
+@import url('css/bootstrap-responsive.min.css');
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 10px;
+}
+pre.prettyprint {
+    margin-bottom: 18px;
+}
+label.valid {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+
+}
+label.error {
+	font-weight: bold;
+	color: green;
+	padding: 2px 8px;
+	margin-top: 2px;
+}

@@ -1,12 +1,10 @@
 .container {
-  width: 500px;
-  margin: 0 auto;
+    width: 500px;
+    margin: 0 auto;
 }
-
 #erreur {
-  display: none;
+    display: none;
 }
-
 form {
-  padding: 10px;
+    padding: 10px;
 }
